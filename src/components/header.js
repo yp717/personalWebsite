@@ -3,12 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header className="is-dark-blue-bg">
     <div
       style={{
         margin: `0 auto`,
@@ -39,4 +34,4 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Header;
