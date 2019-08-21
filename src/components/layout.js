@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer id="footer" style={{color: `white`}}>
+        <footer id="footer" style={{color: `black`}}>
           © Yannis Panagis 2019
         </footer>
       </div>
