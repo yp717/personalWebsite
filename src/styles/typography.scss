@@ -6,11 +6,17 @@ a {
 }
 
 h1 {
-    color: black;
+    font-family: 'Poppins-SemiBold';
+    font-size: 40px;
+    color: #000000;
+    text-align: left;
 }
 
 h2 {
-    color: black;
+    font-family: 'Poppins-Medium';
+    font-size: 30px;
+    color: #000000;
+    text-align: left;
 }
 
 h3 {
@@ -30,5 +36,8 @@ h6 {
 }
 
 p {
-    color: black;
+    font-family: 'Poppins-ExtraLight';
+    font-size: 25px;
+    color: #000000;
+    text-align: left;
 }
