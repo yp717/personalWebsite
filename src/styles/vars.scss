@@ -1,0 +1,20 @@
+$color-palette: 
+("white",#FFFFFF),
+("black",#000000),
+("green", #48BB78),
+("dark-blue", #141821),
+("orange",#EF8A37),
+("purple", #805AD5),
+("blue", #3385D2),
+("bright-green", #00FF6A),
+("yellow", #FFD556),
+("red", #FF4D4D);
+
+@each $color in $color-palette {
+  .is-#{nth($color,1)}-bg{
+    background-color: nth($color,2);
+  }
+  .is-#{nth($color,1)}-text{
+    color: nth($color,2);
+  }
+}

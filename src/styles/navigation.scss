@@ -5,12 +5,14 @@ $nav-height: 60px;
     height: $nav-height;
 }
 
-.container {
+.navbar {
     position: fixed;
     z-index: 5;
     top: 0;
+    left: 0;
     width: 100%;
     background-color: white;
+    box-shadow: 0 3px 7px 0 rgba(0,0,0,0.50);
 }
 
 .innerContainer {

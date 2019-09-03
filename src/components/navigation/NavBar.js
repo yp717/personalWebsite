@@ -5,7 +5,7 @@ export default () => {
     return (
         <>
     
-        <nav className="heightOffset container navbar">
+        <nav className="heightOffset navbar">
             <div className="innerContainer" >
                 {navigationPaths.map(({ path, name }) => (
                     <a className="navLinks" href={path}>
