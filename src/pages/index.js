@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Button from '../components/button';
 import PageSection from '../components/PageSection';
+import TerminalWindow from '../components/terminal/TerminalWindow';
 
 const IndexPage = () => (
   <>
@@ -11,6 +12,7 @@ const IndexPage = () => (
   <Layout>
     <div className="container__row" style={{marginTop:'60px'}}>
       <div className="container__col-4 full-vh"> 
+        <div style={{margin:'2rem'}}>
         <h1 style={{margin: 0, padding: 0}}>
           Engineer.
         </h1>
@@ -27,11 +29,14 @@ const IndexPage = () => (
           I'm a third year MEng Electrical Engineering student at Imperial College London looking for a 6 month placement in 2020.
         </p>
         <Button className="button" buttonText="Work with me!" />
+        </div>
+        
       </div>
       <div className="container__col-8" style={{overflowY:"scroll", height:"100vh"}}>
         <div className="is-green-bg">
           <PageSection title="About">
-            <p className="is-white-text"> This is a placeholder something else is going to go here. This is a placeholder something else is going to go here. This is a placeholder something else is going to go here. This is a placeholder something else is going to go here.</p>
+            {/* terminal window goes here */}
+            <TerminalWindow />
           </PageSection>  
         </div>
         <div className="is-dark-blue-bg">

@@ -1,9 +1,5 @@
 export const navigationPaths = [
     {
-        path: '/',
-        name: 'Yannis Panagis',
-    },
-    {
         path: '/about',
         name: 'About',
     },

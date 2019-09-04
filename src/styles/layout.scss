@@ -5,7 +5,7 @@ $grid__bp-xl: 1200;
 $grid__cols: 12;
 
 .full-vh {
-    height: 100px;
+    height: 100vh;
 }
 
 $map-grid-props: (
@@ -59,7 +59,8 @@ $map-grid-props: (
 }
 
 .container {
-  max-width: $grid__bp-md * 1px;
+  // max-width: $grid__bp-md * 1px;
+  max-width: 960px;
   margin: 0 auto;
   &--fluid {
     margin: 0;
