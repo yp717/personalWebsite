@@ -5,6 +5,7 @@ import SEO from "../components/seo";
 import Button from '../components/button';
 import PageSection from '../components/PageSection';
 import TerminalWindow from '../components/terminal/TerminalWindow';
+import ProjectCard from '../components/cards/ProjectCard';
 
 const IndexPage = () => (
   <>
@@ -41,6 +42,17 @@ const IndexPage = () => (
         </div>
         <div className="is-dark-blue-bg">
           <PageSection title="Projects">
+          <div className="container__row" style={{marginTop:'60px'}}>
+            <div className="container__col-4 full-vh">
+                <ProjectCard/>
+            </div>
+            <div className="container__col-4 full-vh">
+                <ProjectCard/>
+            </div>
+            <div className="container__col-4 full-vh">
+                <ProjectCard/>
+            </div>
+          </div>
             <p className="is-white-text"> This is a placeholder something else is going to go here. This is a placeholder something else is going to go here. This is a placeholder something else is going to go here. This is a placeholder something else is going to go here.</p>
           </PageSection>
         </div>
