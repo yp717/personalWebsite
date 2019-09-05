@@ -6,6 +6,7 @@ import Button from '../components/button';
 import PageSection from '../components/PageSection';
 import TerminalWindow from '../components/terminal/TerminalWindow';
 import ProjectCard from '../components/cards/ProjectCard';
+import ContactForm from "../components/contactForm";
 
 const IndexPage = () => (
   <>
@@ -63,7 +64,7 @@ const IndexPage = () => (
         </div>
         <div className="is-purple-bg">
           <PageSection title="Contact">
-            <p className="is-white-text"> This is a placeholder something else is going to go here. This is a placeholder something else is going to go here. This is a placeholder something else is going to go here. This is a placeholder something else is going to go here.</p>
+            <ContactForm/>
           </PageSection>
         </div>
       </div>
