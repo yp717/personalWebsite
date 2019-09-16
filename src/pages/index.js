@@ -23,13 +23,13 @@ const IndexPage = () => (
   <Layout>
     <div className="container--fluid">
       <div className="container__row">
-        <div className="container__col-lg-4 container__col-md-4 container__col-sm-12 full-vh"> 
+        <div className="container__col-lg-4 container__col-md-12 container__col-sm-12">
           <CallToAction/>
         </div>
 
-        <div className="container__col-lg-8 container__col-md-8 container__col-sm-12 full-vh" style={{overflowY:"scroll", height:"100vh"}}>
+        <div className="container__col-lg-8 container__col-md-12 container__col-sm-12" style={{overflowY:"scroll", height:"100vh"}}>
           {/* Landing Hone Screen section */}
-          <div className="is-theme-color-bg full-vh">
+          <div className="is-theme-color-bg">
             <PageSection>
               <img src={HomeScreen} className="home-screen"/>
             </PageSection>  

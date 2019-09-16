@@ -4,9 +4,10 @@ $grid__bp-lg: 992;
 $grid__bp-xl: 1200;
 $grid__cols: 12;
 
-// 60 px is nav-height and we want containers to be 60px less than full vh
-.full-vh {
-  height: '100vh-60px';
+// not sure if this is the best way to do this
+.center-align {
+  margin-top: 40%;
+  margin-left: 15%;
 }
 
 $map-grid-props: (
