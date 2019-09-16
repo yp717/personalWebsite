@@ -4,7 +4,7 @@ import Button from '../components/button';
 const CallToAction = () => {
     return (
         <>
-        <div style={{margin:'2rem'}}>
+        <div className="center-align">
             {/*  this should be a component */}
             <h1 style={{margin: 0, padding: 0}}>
               ENGINEER
@@ -24,7 +24,7 @@ const CallToAction = () => {
             <p>
               I'm a third year MEng Electrical Engineering student at Imperial College London looking for a 6 month placement in 2020.
             </p>
-            <Button className="button" buttonText="Work with me!" />
+            <Button className="button is-button-blue-bg" buttonText="Work with me!" />
           </div>
         </>      
     );
