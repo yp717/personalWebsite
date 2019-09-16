@@ -5,7 +5,7 @@ $grid__bp-xl: 1200;
 $grid__cols: 12;
 
 .full-vh {
-    height: 100vh;
+    height: '100vh-60px';
 }
 
 $map-grid-props: (
@@ -58,6 +58,7 @@ $map-grid-props: (
   }
 }
 
+// problemo is here
 .container {
   // max-width: $grid__bp-md * 1px;
   max-width: 960px;
