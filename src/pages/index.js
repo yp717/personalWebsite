@@ -2,71 +2,89 @@ import React from "react";
 // import { Link } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Button from '../components/button';
 import PageSection from '../components/PageSection';
 import TerminalWindow from '../components/terminal/TerminalWindow';
 import ProjectCard from '../components/cards/ProjectCard';
 import ContactForm from "../components/contactForm";
+import CallToAction from '../components/callToAction';
+
+import HomeScreen from '../images/iPhone-home-screen.svg';
+
+import AboutSection from '../components/pageSections/AboutSection';
+import AchievementsSection from '../components/pageSections/AchievementsSection';
+import EducationSection from '../components/pageSections/EducationSection';
+import ExperienceSection from '../components/pageSections/ExperienceSection';
+import SkillsSection from '../components/pageSections/SkillsSection';
+import VolunteeringSection from '../components/pageSections/VolunteeringSection';
 
 const IndexPage = () => (
   <>
   <SEO title="Home" />
   <Layout>
-    <div className="container__row" style={{marginTop:'60px'}}>
-      <div className="container__col-4 full-vh"> 
-        <div style={{margin:'2rem'}}>
-        <h1 style={{margin: 0, padding: 0}}>
-          Engineer.
-        </h1>
-        <h1 style={{margin: 0, padding: 0}}>
-          Designer.
-        </h1>
-        <h1 style={{margin: 0, padding: 0}}>
-          Frontend Developer.
-        </h1>
-        <h2>
-          Hey, I'm Yannis
-        </h2>
-        <p>
-          I'm a third year MEng Electrical Engineering student at Imperial College London looking for a 6 month placement in 2020.
-        </p>
-        <Button className="button" buttonText="Work with me!" />
+    <div className="container--fluid">
+      <div className="container__row">
+        <div className="container__col-lg-4 container__col-md-4 container__col-sm-12 full-vh"> 
+          <CallToAction/>
         </div>
-        
-      </div>
-      <div className="container__col-8" style={{overflowY:"scroll", height:"100vh"}}>
-        <div className="is-green-bg">
-          <PageSection title="About">
-            {/* terminal window goes here */}
-            <TerminalWindow />
-          </PageSection>  
-        </div>
-        <div className="is-dark-blue-bg">
-          <PageSection title="Projects">
-          <div className="container__row" style={{marginTop:'60px'}}>
-            <div className="container__col-4 full-vh">
-                <ProjectCard/>
-            </div>
-            <div className="container__col-4 full-vh">
-                <ProjectCard/>
-            </div>
-            <div className="container__col-4 full-vh">
-                <ProjectCard/>
-            </div>
+
+        <div className="container__col-lg-8 container__col-md-8 container__col-sm-12 full-vh" style={{overflowY:"scroll", height:"100vh"}}>
+          {/* Landing Hone Screen section */}
+          <div className="is-theme-color-bg full-vh">
+            <PageSection>
+              <img src={HomeScreen} className="home-screen"/>
+            </PageSection>  
           </div>
-            <p className="is-white-text"> This is a placeholder something else is going to go here. This is a placeholder something else is going to go here. This is a placeholder something else is going to go here. This is a placeholder something else is going to go here.</p>
-          </PageSection>
-        </div>
-        <div className="is-blue-bg">
-          <PageSection title="Experience">
-            <p className="is-white-text"> This is a placeholder something else is going to go here. This is a placeholder something else is going to go here. This is a placeholder something else is going to go here. This is a placeholder something else is going to go here.</p>
-          </PageSection>
-        </div>
-        <div className="is-purple-bg">
-          <PageSection title="Contact">
-            <ContactForm/>
-          </PageSection>
-        </div>
+
+          {/* About Section */}
+          <div className="is-dark-blue-bg">
+            <PageSection>
+              <AboutSection/>
+            </PageSection>          
+          </div>
+
+          {/* Education Section */}
+          <div className="is-blue-bg">
+            <PageSection>
+              <EducationSection/>
+            </PageSection>          
+          </div>
+
+          {/* Experience Section */}
+          <div className="is-mustard-yellow-bg">
+            <PageSection>
+              <ExperienceSection/>
+            </PageSection>           
+          </div>
+
+          {/* Skills Section */}
+          <div className="is-dark-blue-bg">
+            <PageSection>
+              <SkillsSection/>
+            </PageSection>          
+          </div>
+
+          {/* Achievements Section */}
+          <div className="is-theme-color-bg">
+            <PageSection>
+              <AchievementsSection/>
+            </PageSection>          
+          </div>
+          
+          {/* Volunteering Section */}
+          <div className="is-blue-bg">
+            <PageSection>
+              <VolunteeringSection/>
+            </PageSection>          
+          </div>
+
+          {/* Contact Section */}
+          <div className="is-mustard-yellow-bg">
+            <PageSection title="Contact">
+              <ContactForm/>
+            </PageSection>
+          </div>
+      </div>
+
       </div>
     </div>
   </Layout>

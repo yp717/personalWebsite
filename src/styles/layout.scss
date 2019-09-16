@@ -4,8 +4,9 @@ $grid__bp-lg: 992;
 $grid__bp-xl: 1200;
 $grid__cols: 12;
 
+// 60 px is nav-height and we want containers to be 60px less than full vh
 .full-vh {
-    height: '100vh-60px';
+  height: '100vh-60px';
 }
 
 $map-grid-props: (
@@ -60,8 +61,7 @@ $map-grid-props: (
 
 // problemo is here
 .container {
-  // max-width: $grid__bp-md * 1px;
-  max-width: 960px;
+  max-width: $grid__bp-md * 1px;
   margin: 0 auto;
   &--fluid {
     margin: 0;
