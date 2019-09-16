@@ -8,7 +8,9 @@ $color-palette:
 ("blue", #3385D2),
 ("bright-green", #00FF6A),
 ("yellow", #FFD556),
-("red", #FF4D4D);
+("red", #FF4D4D),
+("mustard-yellow", #f4b93d),
+("theme-color", #FF5A5F);
 
 @each $color in $color-palette {
   .is-#{nth($color,1)}-bg{

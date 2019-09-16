@@ -27,8 +27,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
-      <NavBar/>
+      {/* <NavBar/> */}
       <main>{children}</main>
       {/* <footer id="footer" style={{color: `white`}}>
         © Yannis Panagis 2019
