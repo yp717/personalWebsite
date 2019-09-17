@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="114px" height="114px" viewBox="0 0 114 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>facebook-color</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-215.000000, -45.000000)" fill-rule="nonzero">
+            <g id="facebook-color" transform="translate(215.000000, 45.000000)">
+                <circle id="Oval" fill="#3B5998" cx="56.5944425" cy="56.5944425" r="56.5944425"></circle>
+                <path d="M70.8222478,58.8098761 L60.7236637,58.8098761 L60.7236637,95.8064071 L45.4234513,95.8064071 L45.4234513,58.8098761 L38.1466195,58.8098761 L38.1466195,45.807823 L45.4234513,45.807823 L45.4234513,37.3940177 C45.4234513,31.3772389 48.2815221,21.9555929 60.8598584,21.9555929 L72.1932743,22.0030088 L72.1932743,34.6237168 L63.9701416,34.6237168 C62.6213097,34.6237168 60.7246726,35.2976283 60.7246726,38.1678053 L60.7246726,45.8199292 L72.1589735,45.8199292 L70.8222478,58.8098761 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

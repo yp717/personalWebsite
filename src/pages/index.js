@@ -3,19 +3,17 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import PageSection from '../components/PageSection';
-import TerminalWindow from '../components/terminal/TerminalWindow';
-import ProjectCard from '../components/cards/ProjectCard';
-import ContactForm from "../components/contactForm";
+// import TerminalWindow from '../components/terminal/TerminalWindow';
 import CallToAction from '../components/callToAction';
 
 import HomeScreen from '../images/iPhone-home-screen.svg';
-
-import AboutSection from '../components/pageSections/AboutSection';
 import AchievementsSection from '../components/pageSections/AchievementsSection';
 import EducationSection from '../components/pageSections/EducationSection';
 import ExperienceSection from '../components/pageSections/ExperienceSection';
 import SkillsSection from '../components/pageSections/SkillsSection';
 import VolunteeringSection from '../components/pageSections/VolunteeringSection';
+import ContactSection from '../components/pageSections/ContactSection';
+import Footer from '../components/navigation/Footer';
 
 const IndexPage = () => (
   <>
@@ -35,54 +33,48 @@ const IndexPage = () => (
             </PageSection>  
           </div>
 
-          {/* About Section */}
-          <div className="is-dark-blue-bg">
-            <PageSection>
-              <AboutSection/>
-            </PageSection>          
-          </div>
-
           {/* Education Section */}
-          <div className="is-blue-bg">
+          <div className="is-dark-blue-bg">
             <PageSection>
               <EducationSection/>
             </PageSection>          
           </div>
 
           {/* Experience Section */}
-          <div className="is-mustard-yellow-bg">
+          <div className="is-blue-bg">
             <PageSection>
               <ExperienceSection/>
             </PageSection>           
           </div>
 
           {/* Skills Section */}
-          <div className="is-dark-blue-bg">
+          <div className="is-mustard-yellow-bg">
             <PageSection>
               <SkillsSection/>
             </PageSection>          
           </div>
 
           {/* Achievements Section */}
-          <div className="is-theme-color-bg">
+          <div className="is-dark-blue-bg">
             <PageSection>
               <AchievementsSection/>
             </PageSection>          
           </div>
           
           {/* Volunteering Section */}
-          <div className="is-blue-bg">
+          <div className="is-theme-color-bg">
             <PageSection>
               <VolunteeringSection/>
             </PageSection>          
           </div>
 
           {/* Contact Section */}
-          <div className="is-mustard-yellow-bg">
+          <div className="is-blue-bg">
             <PageSection title="Contact">
-              <ContactForm/>
+              <ContactSection/>
             </PageSection>
           </div>
+          <Footer/>
       </div>
 
       </div>

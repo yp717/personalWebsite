@@ -5,9 +5,10 @@ $grid__bp-xl: 1200;
 $grid__cols: 12;
 
 // not sure if this is the best way to do this
-.center-align {
+.sidebar-wrapper {
   margin-top: 40%;
-  margin-left: 15%;
+  margin-left: 20%;
+  width: 60%;
 }
 
 $map-grid-props: (

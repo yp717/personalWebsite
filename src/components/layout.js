@@ -29,9 +29,6 @@ const Layout = ({ children }) => {
     <>
       {/* <NavBar/> */}
       <main>{children}</main>
-      {/* <footer id="footer" style={{color: `white`}}>
-        © Yannis Panagis 2019
-      </footer> */}
     </>
   )
 }

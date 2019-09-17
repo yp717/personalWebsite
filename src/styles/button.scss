@@ -1,29 +1,33 @@
 .button {
     background-color: #3A80FE;
-    border-radius: 20px;
-    padding: 5%;
+    border-radius: 30px;
     border: none;
     color: white;
-    height: 40px;
+    height: 50px;
+    width: 200px;
     text-align: center;
 }
 
 .clear-button {
-    background: #FF4D4D;
-    border-radius: 8px;
+    background: rgb(226, 54, 54);
+    border-radius: 20px;
     border: none;
     color: white;
     height: 40px;
+    width: 100px;
     margin: 1rem;
+    margin-left: 0;
     font-family: 'Poppins-SemiBold';
 }
 
 .submit-button {
-    background: #00FF6A;
-    border-radius: 8px;
+    background: rgb(3, 208, 177);
+    border-radius: 20px;
     border: none;
     color: white;
     height: 40px;
+    width: 100px;
     margin: 1rem;
+    margin-left: 0;
     font-family: 'Poppins-SemiBold';
 }
