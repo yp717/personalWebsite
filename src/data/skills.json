@@ -1,0 +1,50 @@
+[
+    {
+        "skillName": "html5",
+        "iconPath": "'../../images/icons/skillIcons/web-dev/html-5-icon.svg'"
+    },
+    {
+        "skillName": "css3",
+        "iconPath": "'../../images/icons/skillIcons/web-dev/css-3-icon.svg'"
+    },
+    {
+        "skillName": "javascript",
+        "iconPath": "'../../images/icons/skillIcons/web-dev/javascript-icon.svg'"
+    },
+    {
+        "skillName": "gatsby",
+        "iconPath": "'../../images/icons/skillIcons/web-dev/gatsby-icon.svg'"
+    },
+    {
+        "skillName": "graphql",
+        "iconPath": "'../../images/icons/skillIcons/web-dev/GraphQL-icon.svg'"
+    },
+    {
+        "skillName": "react",
+        "iconPath": "'../../images/icons/skillIcons/web-dev/react-icon.svg'"
+    },
+    {
+        "skillName": "postman",
+        "iconPath": "'../../images/icons/skillIcons/web-dev/postman-icon.svg'"
+    },
+    {
+        "skillName": "sass",
+        "iconPath": "'../../images/icons/skillIcons/web-dev/sass-icon.svg'"
+    },
+    {
+        "skillName": "vscode",
+        "iconPath": "'../../images/icons/skillIcons/web-dev/visual-studio-code-icon.svg'"
+    },
+    {
+        "skillName": "nodejs",
+        "iconPath": "'../../images/icons/skillIcons/web-dev/nodejs-icon.svg'"
+    },
+    {
+        "skillName": "netlify",
+        "iconPath": "'../../images/icons/skillIcons/web-dev/netlify-icon.svg'"
+    },
+    {
+        "skillName": "express",
+        "iconPath": "'../../images/icons/skillIcons/web-dev/express-icon.svg'"
+    }
+]
