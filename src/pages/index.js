@@ -21,11 +21,11 @@ const IndexPage = () => (
   <Layout>
     <div className="container--fluid">
       <div className="container__row">
-        <div className="container__col-lg-4 container__col-md-12 container__col-sm-12">
+        <div className="container__col-lg-5 container__col-md-12 container__col-sm-12">
           <CallToAction/>
         </div>
 
-        <div className="container__col-lg-8 container__col-md-12 container__col-sm-12" style={{overflowY:"scroll", height:"100vh"}}>
+        <div className="container__col-lg-7 container__col-md-12 container__col-sm-12" style={{overflowY:"scroll", height:"100vh"}}>
           {/* Landing Hone Screen section */}
           <div className="is-theme-color-bg">
             <PageSection>
