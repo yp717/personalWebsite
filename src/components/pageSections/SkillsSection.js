@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillCard from '../cards/skillCard';
 import skills from '../../data/skills.json';
+import WebDevelopment from '../WebDevelopment';
 
 const SkillsSection = () => {
 
@@ -10,6 +11,7 @@ const SkillsSection = () => {
         <h2 className="is-white-text" style={{margin: '0', padding: '0', paddingTop: '5%'}}>Web Development</h2>
         <div className="container">
             <div style={{marginTop: "10px"}}>
+                <WebDevelopment />
                 {/* {skills.map((skill) =>
                     (
                     <SkillCard 
