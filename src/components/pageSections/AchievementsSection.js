@@ -4,7 +4,10 @@ const AchievementsSection = () => {
     return (
         <>
         <div>
-            <h1 className="is-white-text" style={{margin: '0', padding: '0', paddingTop: '5%'}}>Achievements</h1>            
+            <h1 className="is-white-text section-heading">Achievements</h1>
+            {/* IC Hack winner */}
+            {/* Old Centralian Trust Scholarship */}
+            {/* Gulf Finance House Leadership Award */}
         </div>
         </>
     );

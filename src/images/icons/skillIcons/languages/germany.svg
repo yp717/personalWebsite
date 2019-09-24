@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="663px" height="568px" viewBox="0 0 663 568" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>germany</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-2649.000000, -534.000000)" fill-rule="nonzero">
+            <g id="germany" transform="translate(2649.000000, 534.000000)">
+                <path d="M333.169392,207 L344,191.920011 L344,15.4830178 L333.169392,0 L58.6742534,0 C26.3216834,0 0,25.1581936 0,56.0806923 L0,188.025311 L0,195.457707 L19.6986403,207 L333.169392,207 L333.169392,207 Z" id="Path" fill="#040505"></path>
+                <path d="M0,374.038874 L0,382.103152 L0,512.348707 C0,543.034438 26.3073514,568 58.6423056,568 L332.987983,568 L344,548.415149 L344,376.763176 L332.987983,361 L9.83485212,361 L0,374.038874 Z" id="Path" fill="#FFCB24"></path>
+                <path d="M663,207 L663,56.0806923 C663,25.1581936 636.691699,0 604.355578,0 L330,0 L330,207 L663,207 Z" id="Path" fill="#040505"></path>
+                <path d="M345.063047,361 L330,374.038874 L330,568 L604.355578,568 C636.691699,568 663,543.034438 663,512.348707 L663,380.82062 L663,374.038874 L651.281262,361 L345.063047,361 Z" id="Path" fill="#FFCB24"></path>
+                <polygon id="Path" fill="#F40055" points="333.169392 197 0 197 0 372 333.169392 372 344 363.473595 344 204.119086"></polygon>
+                <polygon id="Path" fill="#F40055" points="330 197 663 197 663 372 330 372"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

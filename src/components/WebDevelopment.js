@@ -1,7 +1,6 @@
 import React from 'react';
 
-// image imports
-
+// image imports 
 import html5 from '../images/icons/skillIcons/web-dev/html-5-icon.svg';
 import css3 from '../images/icons/skillIcons/web-dev/css-3-icon.svg';
 import javascript from '../images/icons/skillIcons/web-dev/javascript-icon.svg';
@@ -13,35 +12,37 @@ import sass from '../images/icons/skillIcons/web-dev/sass-icon.svg';
 import vscode from '../images/icons/skillIcons/web-dev/visual-studio-code-icon.svg';
 import nodejs from '../images/icons/skillIcons/web-dev/nodejs-icon.svg';
 import netlify from '../images/icons/skillIcons/web-dev/netlify-icon.svg';
-import express from '../images/icons/skillIcons/web-dev/express-icon.svg';
+import Squarespace from '../images/icons/skillIcons/technicalSkills/squarespace.svg';
+import Wordpress from '../images/icons/skillIcons/technicalSkills/wordpress.svg';
 
 const WebDevelopment = () => {
 
-    const skills = [
-        html5,
-        css3,
-        javascript,
-        gatsby,
-        graphql,
-        react,
-        postman,
-        sass,
-        vscode,
-        nodejs,
-        netlify,
-        express
+    const webskills = [
+        [html5, "html5"],
+        [css3, "css3"],
+        [javascript, "javascript"],
+        [gatsby, "gatsby"],
+        [graphql, "graphql"],
+        [react, "react"],
+        [sass, "sass"],
+        [netlify, "netlify"]
     ]
 
     return (
         <>
-        {skills.map((skill) =>
-            (
-                <div className="container__row" style={{paddingLeft: '5%'}}>
-                    <img src={skill} style={{height: '30px'}}/>
-                    <h3 className="is-dark-grey-text">{skill.name}</h3>
-                </div>
-            )
-        )}
+        <h2 className="is-white-text section-heading">Web Development</h2>
+        <div className="container">
+            <div className="container__row">
+                {webskills.map((skill) =>
+                    (
+                        <div className="container__col-sm-2 text-align-center">
+                            <img src={skill[0]} style={{height: '50px'}}/>
+                            <h3 className="text-align-center is-dark-grey-text">{skill[1]}</h3>
+                        </div>                       
+                    )
+                )}
+            </div>
+        </div>
         </>
     );
 }

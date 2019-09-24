@@ -11,6 +11,10 @@ $grid__cols: 12;
   width: 60%;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 $map-grid-props: (
         '': 0,
         '-sm': $grid__bp-sm,
@@ -61,7 +65,6 @@ $map-grid-props: (
   }
 }
 
-// problemo is here
 .container {
   max-width: $grid__bp-md * 1px;
   margin: 0 auto;
