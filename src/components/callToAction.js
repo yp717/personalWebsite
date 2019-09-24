@@ -22,7 +22,7 @@ const CallToAction = () => {
                   & STUDENT.
                 </h1>
                 <h2 className="is-dark-grey-text">
-                  Hey, I'm Yannis
+                  Hi, I'm Yannis
                 </h2>
                 <p className="is-dark-grey-text" style={{fontSize: '16px'}}>
                   I'm a third year MEng Electrical Engineering student at Imperial College London looking for a 6 month placement in 2020.

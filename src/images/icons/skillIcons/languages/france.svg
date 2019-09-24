@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="806px" height="568px" viewBox="0 0 806 568" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>france</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1702.000000, -534.000000)" fill-rule="nonzero">
+            <g id="france" transform="translate(1702.000000, 534.000000)">
+                <path d="M273,7.95187262 L259.331083,7.95187262 L252.428335,3 L70.7763242,3 C31.7507576,3 0,28.036668 0,58.8113183 L0,512.187444 C0,542.962094 31.7507576,568 70.7763242,568 L252.428335,568 L262.393913,563.048127 L273,563.048127 L273,7.95187262 L273,7.95187262 Z" id="Path" fill="#406BD4"></path>
+                <path d="M734.853296,0 L552.250682,0 L545.112971,4.95187262 L537,4.95187262 L537,560.048127 L543.534879,560.048127 L552.250682,565 L734.853296,565 C774.083087,565 806,539.962094 806,509.187444 L806,55.8125563 C806,25.0379059 774.083087,0 734.853296,0 Z" id="Path" fill="#F40055"></path>
+                <polygon id="Path" fill="#F0F9FF" points="256 3 554 3 554 568 256 568"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

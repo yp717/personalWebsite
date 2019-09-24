@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="635px" height="568px" viewBox="0 0 635 568" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>united-kingdom</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-955.000000, -534.000000)" fill-rule="nonzero">
+            <g id="united-kingdom" transform="translate(955.000000, 534.000000)">
+                <path d="M579.085273,4 L55.9147266,4 C25.0837402,4 0,28.9935363 0,59.7136509 L0,512.286349 C0,543.006464 25.0837402,568 55.9147266,568 L579.085273,568 C609.91626,568 635,543.006464 635,512.286349 L635,59.7136509 C635,28.9935363 609.91626,4 579.085273,4 Z" id="Path" fill="#F0F9FF"></path>
+                <path d="M246,201.284069 L19.8359941,14 C10.1705459,21.581391 3.05428164,32.2377952 0,44.4819838 L204.710452,214 L245.993764,214 L246,201.284069 Z" id="Path" fill="#F40055"></path>
+                <path d="M389,214 L431.288514,214 L635,44.8467428 C632.102246,32.5023232 625.116478,21.7179058 615.540803,14 L389,202.109648 L389,214 Z" id="Path" fill="#F40055"></path>
+                <path d="M204.709205,354 L0,523.51869 C3.05428164,535.763107 10.1705459,546.419709 19.8359941,554 L246,366.713684 L245.993764,354 L204.709205,354 Z" id="Path" fill="#F40055"></path>
+                <path d="M389,354 L389,365.889182 L615.540901,554 C625.116528,546.282046 632.102261,535.496318 635,523.153065 L431.290792,354 L389,354 Z" id="Path" fill="#F40055"></path>
+                <polygon id="Path" fill="#406BD4" points="67 0 246 151 246 1.33139693e-14"></polygon>
+                <polygon id="Path" fill="#3257B0" points="390 151 390 0 572 0"></polygon>
+                <polygon id="Path" fill="#3257B0" points="491 214 635 91 635 214"></polygon>
+                <g id="Group" transform="translate(0.000000, 88.000000)" fill="#406BD4">
+                    <polygon id="Path" points="0 0.394196891 0 123.823834 147.492452 123.823834"></polygon>
+                    <polygon id="Path" points="0 266.642487 0 388.133472 145.177085 266.642487"></polygon>
+                    <polygon id="Path" points="62.4147739 479.001451 245.474623 326.450984 245.474623 479.001451"></polygon>
+                </g>
+                <polygon id="Path" fill="#3257B0" points="389 568 389 414 575 568"></polygon>
+                <polygon id="Path" fill="#3257B0" points="635 473 491 354 635 354"></polygon>
+                <polygon id="Path" fill="#F40055" points="635 244.159152 359.491855 244.159152 359.491855 4 275.508145 4 275.508145 244.159152 0 244.159152 0 327.840848 275.508145 327.840848 275.508145 568 359.491855 568 359.491855 327.840848 635 327.840848"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

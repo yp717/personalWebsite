@@ -29,7 +29,9 @@ const IndexPage = () => (
           {/* Landing Hone Screen section */}
           <div className="is-theme-color-bg">
             <PageSection>
-              <img src={HomeScreen} className="home-screen"/>
+              <div className="text-align-center">
+                <img src={HomeScreen} className="home-screen"/>
+              </div>
             </PageSection>  
           </div>
 
