@@ -25,7 +25,7 @@ const IndexPage = () => (
           <CallToAction/>
         </div>
 
-        <div className="container__col-lg-7 container__col-md-12 container__col-sm-12" style={{overflowY:"scroll", height:"100vh"}}>
+        <div className="container__col-lg-7 container__col-md-12 container__col-sm-12 page-section-list">
           {/* Landing Hone Screen section */}
           <div className="is-deep-sky-blue-bg">
             <PageSection>
