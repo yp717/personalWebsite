@@ -1,21 +1,9 @@
 import React, { useState } from 'react';
 
-import githubColorIcon from '../images/icons/socialMediaIcons/github-color.svg';
-import githubGrayscaleIcon from '../images/icons/socialMediaIcons/github-grayscale.svg';
-import linkedinColorIcon from '../images/icons/socialMediaIcons/linkedin-color.svg';
-import linkedinGrayscaleIcon from '../images/icons/socialMediaIcons/linkedin-grayscale.svg';
-import mediumColorIcon from '../images/icons/socialMediaIcons/medium-color.svg';
-import mediumGrayscaleIcon from '../images/icons/socialMediaIcons/medium-grayscale.svg';
-import spotifyColorIcon from '../images/icons/socialMediaIcons/spotify-color.svg';
-import spotifyGrayscaleIcon from '../images/icons/socialMediaIcons/spotify-grayscale.svg';
-import twitterColorIcon from '../images/icons/socialMediaIcons/twitter-color.svg';
-import twitterGrayscaleIcon from '../images/icons/socialMediaIcons/twitter-grayscale.svg';
-
-const twitterLink = `https://twitter.com`;
-const githubLink = `https://www.facebook.com`;
-const linkedinLink = `https://www.linkedin.com`;
-const mediumLink = `https://www.medium.com`;
-const spotifyLink = `https://www.spotify.com`;
+const githubLink = `https://github.com/yp717`;
+const linkedinLink = `https://www.linkedin.com/in/yannis-panagis/`;
+const mediumLink = `https://medium.com/@yannis.panagis1998`;
+const spotifyLink = `https://open.spotify.com/artist/4tCn4Wkn4cf0CWLUFvQO58?si=XUyEXMPASyqdhksoCx587g`;
 
 const SocialLinks = () => {
 
@@ -43,11 +31,6 @@ const SocialLinks = () => {
                 <div className="col-sm-2">
                     <a href={spotifyLink} target="blank">
                         <div className="spotifyIcon"/>
-                    </a>
-                </div>
-                <div className="col-sm-2">
-                    <a href={twitterLink} target="blank">
-                        <div className="twitterIcon"/>
                     </a>
                 </div>
             </div>

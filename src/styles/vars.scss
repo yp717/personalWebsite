@@ -1,18 +1,28 @@
 $color-palette: 
 ("white",#FFFFFF),
 ("black",#000000),
+("pumpkin-orange",rgb(252, 105, 100)),
+("java-green", #2CA4A4),
+("regal-blue", #182848),
+("supernova-yellow", #FCB233),
+("red-orange", #FD3D37),
+("deep-sky-blue", #1EB6FF),
 ("dark-grey", #4A4A4A),
 ("very-dark-grey", #222222),
-("green", #48BB78),
-("dark-blue", #141821),
-("orange",#EF8A37),
-("purple", #805AD5),
-("blue", #3385D2),
-("bright-green", #00FF6A),
-("yellow", #FFD556),
-("red", #FF4D4D),
-("mustard-yellow", #f4b93d),
-("theme-color", #FF5A5F);
+("green", rgb(53, 203, 115)),
+("matisse-blue", #385473);
+
+// ("dark-blue", #141821),
+
+// ("purple", #805AD5),
+// ("blue", rgb(0, 148, 216)),
+// ("bright-green", #00FF6A),
+// ("yellow", #FFD556),
+// ("red", #FF4D4D),
+// ("mustard-yellow", #f4b93d),
+// ("theme-color", #FF5A5F),
+// ("sunset-orange", #F64755),
+
 
 @each $color in $color-palette {
   .is-#{nth($color,1)}-bg{
