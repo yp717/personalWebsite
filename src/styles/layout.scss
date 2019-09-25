@@ -82,10 +82,3 @@ $map-grid-props: (
     @include create-col-classes($modifier, $grid__cols, $breakpoint);
   }
 }
-
-// .page-section-list {
-//   @media (max-width: 768px) {
-//     overflow-y: scroll;
-//     height: 100vh;
-//   } 
-// }
