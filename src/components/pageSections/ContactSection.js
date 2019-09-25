@@ -4,8 +4,8 @@ import ContactForm from '../contactForm';
 const ContactSection = () => {
     return (
         <>
-        <div style={{paddingBottom: '5%'}}>
-            <h1 className="is-white-text section-heading">
+        <div style={{paddingBottom: '5%', marginLeft: '5%', marginRight: '5%', padding: '3%'}}>
+            <h1 className="is-white-text">
                 Contact
             </h1>
             <h4 className="is-white-text" style={{margin: '10px', marginLeft: '0'}}>

@@ -6,15 +6,14 @@ import LanguageSkills from '../LanguageSkills';
 import TechnicalSkills from '../TechnicalSkills';
 
 const SkillsSection = () => {
-
     return (
         <>
-        <h1 className="is-white-text section-heading">Skills</h1>
-            <div>
-                <TechnicalSkills />
-                <WebDevelopment />
-                <DesignSkills />
-                <LanguageSkills />
+        <h1 className="is-white-text section-heading">Technical Skills</h1>
+            <div className="container" style={{paddingBottom: '20px'}}>
+                    <TechnicalSkills />
+                    <WebDevelopment />
+                {/* <DesignSkills />
+                <LanguageSkills /> */}
             </div>
         </>
     );

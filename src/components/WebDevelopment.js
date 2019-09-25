@@ -30,19 +30,27 @@ const WebDevelopment = () => {
 
     return (
         <>
-        <h2 className="is-white-text section-heading">Web Development</h2>
-        <div className="container">
-            <div className="container__row">
-                {webskills.map((skill) =>
-                    (
-                        <div className="container__col-sm-2 text-align-center">
-                            <img src={skill[0]} style={{height: '50px'}}/>
-                            <h3 className="text-align-center is-dark-grey-text">{skill[1]}</h3>
-                        </div>                       
-                    )
-                )}
+            <div className="skill-section is-white-bg" style={{paddingLeft: '5%', paddingRight: '5%', paddingBottom: '0px'}}>
+                <h2 className="is-black-text">Web Development</h2>
+                <table>
+                    <tbody>
+                        {webskills.map((skill) =>
+                            (
+                                <>
+                                <tr>
+                                    <td style={{padding: '0', margin: '0'}}>
+                                        <img src={skill[0]} style={{height: '30px'}}/>
+                                    </td>                       
+                                    <td>
+                                        <h3 className="is-black-text" style={{padding: '0', margin: '0'}}>{skill[1]}</h3>
+                                    </td>
+                                </tr>
+                                </>
+                            )
+                        )}
+                    </tbody>
+                </table>
             </div>
-        </div>
         </>
     );
 }

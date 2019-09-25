@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header className="is-dark-blue-bg">
+  <header className="is-midnight-blue-bg">
     <div
       style={{
         margin: `0 auto`,

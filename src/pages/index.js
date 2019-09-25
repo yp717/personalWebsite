@@ -6,7 +6,7 @@ import PageSection from '../components/PageSection';
 // import TerminalWindow from '../components/terminal/TerminalWindow';
 import CallToAction from '../components/callToAction';
 
-import HomeScreen from '../images/iPhone-home-screen.svg';
+import CursiveLogo from '../images/cursive-yannis.svg';
 import AchievementsSection from '../components/pageSections/AchievementsSection';
 import EducationSection from '../components/pageSections/EducationSection';
 import ExperienceSection from '../components/pageSections/ExperienceSection';
@@ -15,74 +15,151 @@ import VolunteeringSection from '../components/pageSections/VolunteeringSection'
 import ContactSection from '../components/pageSections/ContactSection';
 import Footer from '../components/navigation/Footer';
 
-const IndexPage = () => (
-  <>
-  <SEO title="Home" />
-  <Layout>
-    <div className="container--fluid">
-      <div className="container__row">
-        <div className="container__col-lg-5 container__col-md-12 container__col-sm-12">
-          <CallToAction/>
-        </div>
+const IndexPage = () => {
+  const isMobile = window.innerWidth < 768;
 
-        <div className="container__col-lg-7 container__col-md-12 container__col-sm-12" style={{overflowY:"scroll", height:"100vh"}}>
-          {/* Landing Hone Screen section */}
-          <div className="is-theme-color-bg">
-            <PageSection>
-              <div className="text-align-center">
-                <img src={HomeScreen} className="home-screen"/>
+  return (
+    <>
+      <SEO title="Home" />
+
+      {
+        isMobile ? 
+          (
+            <Layout>
+              <div className="container--fluid">
+                <div className="container__row">
+                  <div className="container__col-lg-5 container__col-md-12 container__col-sm-12">
+                    <CallToAction/>
+                  </div>
+
+                  <div className="container__col-lg-7 container__col-md-12 container__col-sm-12">
+                    {/* Landing Hone Screen section */}
+                    <div className="is-deep-sky-blue-bg">
+                      <PageSection>
+                        <div className="text-align-center">
+                          <img src={CursiveLogo} className="home-screen"/>
+                        </div>
+                      </PageSection>  
+                    </div>
+
+                    {/* Education Section */}
+                    <div className="is-regal-blue-bg">
+                      <PageSection>
+                        <EducationSection/>
+                      </PageSection>          
+                    </div>
+
+                    {/* Experience Section */}
+                    <div className="is-green-bg">
+                      <PageSection>
+                        <ExperienceSection/>
+                      </PageSection>           
+                    </div>
+
+                    {/* Skills Section */}
+                    <div className="is-java-green-bg">
+                      <PageSection>
+                        <SkillsSection/>
+                      </PageSection>          
+                    </div>
+
+                    {/* Achievements Section */}
+                    <div className="is-supernova-yellow-bg">
+                      <PageSection>
+                        <AchievementsSection/>
+                      </PageSection>          
+                    </div>
+                    
+                    {/* Volunteering Section */}
+                    <div className="is-pumpkin-orange-bg">
+                      <PageSection>
+                        <VolunteeringSection/>
+                      </PageSection>          
+                    </div>
+
+                    {/* Contact Section */}
+                    <div className="is-matisse-blue-bg">
+                      <PageSection title="Contact">
+                        <ContactSection/>
+                      </PageSection>
+                    </div>
+                    <Footer/>
+                </div>
+
+                </div>
               </div>
-            </PageSection>  
-          </div>
+            </Layout>
+          ) :
+          (
+            <Layout>
+              <div className="container--fluid">
+                <div className="container__row">
+                  <div className="container__col-lg-5 container__col-md-12 container__col-sm-12">
+                    <CallToAction/>
+                  </div>
 
-          {/* Education Section */}
-          <div className="is-dark-blue-bg">
-            <PageSection>
-              <EducationSection/>
-            </PageSection>          
-          </div>
+                  <div className="container__col-lg-7 container__col-md-12 container__col-sm-12" style={{overflowY: 'scroll', height: '100vh' }}>
+                    {/* Landing Hone Screen section */}
+                    <div className="is-deep-sky-blue-bg">
+                      <PageSection>
+                        <div className="text-align-center">
+                          <img src={CursiveLogo} className="home-screen"/>
+                        </div>
+                      </PageSection>  
+                    </div>
 
-          {/* Experience Section */}
-          <div className="is-blue-bg">
-            <PageSection>
-              <ExperienceSection/>
-            </PageSection>           
-          </div>
+                    {/* Education Section */}
+                    <div className="is-regal-blue-bg">
+                      <PageSection>
+                        <EducationSection/>
+                      </PageSection>          
+                    </div>
 
-          {/* Skills Section */}
-          <div className="is-mustard-yellow-bg">
-            <PageSection>
-              <SkillsSection/>
-            </PageSection>          
-          </div>
+                    {/* Experience Section */}
+                    <div className="is-green-bg">
+                      <PageSection>
+                        <ExperienceSection/>
+                      </PageSection>           
+                    </div>
 
-          {/* Achievements Section */}
-          <div className="is-dark-blue-bg">
-            <PageSection>
-              <AchievementsSection/>
-            </PageSection>          
-          </div>
-          
-          {/* Volunteering Section */}
-          <div className="is-theme-color-bg">
-            <PageSection>
-              <VolunteeringSection/>
-            </PageSection>          
-          </div>
+                    {/* Skills Section */}
+                    <div className="is-java-green-bg">
+                      <PageSection>
+                        <SkillsSection/>
+                      </PageSection>          
+                    </div>
 
-          {/* Contact Section */}
-          <div className="is-blue-bg">
-            <PageSection title="Contact">
-              <ContactSection/>
-            </PageSection>
-          </div>
-          <Footer/>
-      </div>
+                    {/* Achievements Section */}
+                    <div className="is-supernova-yellow-bg">
+                      <PageSection>
+                        <AchievementsSection/>
+                      </PageSection>          
+                    </div>
+                    
+                    {/* Volunteering Section */}
+                    <div className="is-pumpkin-orange-bg">
+                      <PageSection>
+                        <VolunteeringSection/>
+                      </PageSection>          
+                    </div>
 
-      </div>
-    </div>
-  </Layout>
-  </>
-)
+                    {/* Contact Section */}
+                    <div className="is-matisse-blue-bg">
+                      <PageSection title="Contact">
+                        <ContactSection/>
+                      </PageSection>
+                    </div>
+                    <Footer/>
+                </div>
+
+                </div>
+              </div>
+            </Layout>
+          )
+      }
+      
+    </>
+  )
+}
 
 export default IndexPage;
