@@ -50,14 +50,14 @@ const IndexPage = () => (
           </div>
 
           {/* Skills Section */}
-          <div className="is-java-green-bg">
+          <div className="is-supernova-yellow-bg">
             <PageSection>
               <SkillsSection/>
             </PageSection>          
           </div>
 
           {/* Achievements Section */}
-          <div className="is-supernova-yellow-bg">
+          <div className="is-java-green-bg">
             <PageSection>
               <AchievementsSection/>
             </PageSection>          

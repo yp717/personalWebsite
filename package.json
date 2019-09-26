@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@lottiefiles/lottie-player": "^0.2.0",
     "gatsby": "^2.13.57",
     "gatsby-image": "^2.2.8",
     "gatsby-plugin-manifest": "^2.2.5",
