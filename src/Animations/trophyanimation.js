@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactBodymovin from 'react-bodymovin'
-import animation from './trophy.json'
+import ReactBodymovin from 'react-bodymovin';
+import animation from './trophy.json';
 
 const TrophyAnimation = () => {
     const bodymovinOptions = {

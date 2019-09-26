@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Lottie Animation
-import TrophyAnimation from '../../Animations/trophyanimation';
+import TrophyAnimation from '../../Animations/trophyAnimation';
 import WebDevelopment from '../WebDevelopment';
 
 const AchievementsSection = () => {
