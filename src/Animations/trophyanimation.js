@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactBodymovin from 'react-bodymovin';
+import ReactBodymovin from 'react-bodymovin/lib/ReactBodymovinFull'
 import animation from './trophy-animation.json';
 
 const TrophyAnimation = () => {
