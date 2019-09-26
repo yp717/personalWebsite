@@ -3,7 +3,7 @@ import React from 'react';
 const VolunteeringSection = () => {
     return (
         <>
-            <div className="container">
+            <div className="container" style={{marginBottom: '5%'}} >
                 <h1 className="is-white-text section-heading">Volunteering</h1>
                 <div className="container__row">
                     {/* Departmental Representative */}

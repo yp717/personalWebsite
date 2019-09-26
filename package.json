@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@lottiefiles/lottie-player": "^0.2.0",
     "gatsby": "^2.13.57",
     "gatsby-image": "^2.2.8",
     "gatsby-plugin-manifest": "^2.2.5",
@@ -21,8 +22,10 @@
     "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
+    "react-bodymovin": "^2.0.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
+    "react-lottie": "^1.2.3",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
     "vertical-timeline-component-for-react": "^1.0.6"

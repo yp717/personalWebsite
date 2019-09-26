@@ -1,14 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const githubLink = `https://github.com/yp717`;
 const linkedinLink = `https://www.linkedin.com/in/yannis-panagis/`;
 const mediumLink = `https://medium.com/@yannis.panagis1998`;
 const spotifyLink = `https://open.spotify.com/artist/4tCn4Wkn4cf0CWLUFvQO58?si=XUyEXMPASyqdhksoCx587g`;
 
-const SocialLinks = () => {
-
-    const [hovered, setHovered] = useState(false);
-    
+const SocialLinks = () => {    
     return (
         <>
         <div className="container">

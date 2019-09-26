@@ -1,8 +1,8 @@
 import React from 'react';
 
 import WebDevelopment from '../WebDevelopment';
-import DesignSkills from '../DesignSkills';
-import LanguageSkills from '../LanguageSkills';
+// import DesignSkills from '../DesignSkills';
+// import LanguageSkills from '../LanguageSkills';
 import TechnicalSkills from '../TechnicalSkills';
 
 const SkillsSection = () => {

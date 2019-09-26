@@ -3,7 +3,7 @@ import React from 'react';
 const ExperienceSection = () => {
     return (
         <>
-        <div className="container">
+        <div className="container" style={{marginBottom: '5%'}}>
             <h1 className="is-white-text section-heading">Experience</h1>
             <div className="container__row">
                 {/* experience: American Express*/}

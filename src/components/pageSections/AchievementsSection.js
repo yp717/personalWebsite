@@ -1,12 +1,20 @@
 import React from 'react';
 
+// Lottie Animation
+// import TrophyAnimation from '../../Animations/trophyAnimation';
+
 const AchievementsSection = () => {
     return (
         <>
 
-        <div className="container">
+        <div className="container" style={{marginBottom: '5%'}}>
             <h1 className="is-white-text section-heading">Achievements</h1>
             <div className="container__row">
+                {/* <div className="container__col-sm-12">
+                    <div className="text-align-center">
+                        <TrophyAnimation />
+                    </div>
+                </div> */}
                 {/* IC Hack winner */}
                 <div className="container__col-sm-12 is-white-bg experience-card">
                     <h2 className="is-dark-grey-text card-heading">IC Hack winner</h2>
