@@ -28,7 +28,7 @@ const SoftwarePackageSkills = () => {
                                 <>
                                 <tr>
                                     <td style={{padding: '0', margin: '0'}}>
-                                        <img src={skill[0]} style={{height: '30px'}}/>
+                                        <img src={skill[0]} alt="logo" style={{height: '30px'}}/>
                                     </td>                       
                                     <td>
                                         <h3 className="is-black-text" style={{padding: '0', margin: '0'}}>{skill[1]}</h3>

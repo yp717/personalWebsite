@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '../components/button';
 import SocialLinks from '../components/socialLinks';
 
 const CallToAction = () => {

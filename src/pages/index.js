@@ -3,9 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import PageSection from '../components/PageSection';
-// import TerminalWindow from '../components/terminal/TerminalWindow';
 import CallToAction from '../components/callToAction';
-
 import CursiveLogo from '../images/cursive-yannis.svg';
 import AchievementsSection from '../components/pageSections/AchievementsSection';
 import EducationSection from '../components/pageSections/EducationSection';
@@ -30,7 +28,7 @@ const IndexPage = () => (
           <div className="is-deep-sky-blue-bg">
             <PageSection>
               <div className="text-align-center">
-                <img src={CursiveLogo} className="home-screen"/>
+                <img src={CursiveLogo} alt="cursive logo" className="home-screen"/>
               </div>
             </PageSection>  
           </div>

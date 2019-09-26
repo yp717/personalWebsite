@@ -1,22 +1,34 @@
-import React from 'react';
-import '@lottiefiles/lottie-player';
+import React from 'react'
+import Lottie from 'react-lottie';
+import animationData from './trophy-animation.json';
 
-const TrophyAnimation = () => {
+export default class LottieControl extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {isStopped: false, isPaused: false};
+  }
+
+  render() {
+    const defaultOptions = {
+      loop: true,
+      autoplay: true, 
+      animationData: animationData,
+      rendererSettings: {
+        preserveAspectRatio: 'xMidYMid slice'
+      }
+    };
+
     return (
-        <>
-            <div>
-                <lottie-player 
-                    src={"https://assets1.lottiefiles.com/datafiles/3RKIaYNZqu6RrV0/data.json" }
-                    background="transparent"  
-                    speed="0.8"  
-                    style={{width: "100%", height: "100%"}} 
-                    autoplay
-                    loop
-                >
-                </lottie-player>
-            </div>
-        </>
+      <>
+        <Lottie 
+          options={defaultOptions}
+          height="100%"
+          width="100%"
+          isStopped={this.state.isStopped}
+          isPaused={this.state.isPaused}
+        />
+      </>
     )
+  }
 }
-
-export default TrophyAnimation;

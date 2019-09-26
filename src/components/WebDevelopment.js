@@ -7,13 +7,8 @@ import javascript from '../images/icons/skillIcons/web-dev/javascript-icon.svg';
 import gatsby from '../images/icons/skillIcons/web-dev/gatsby-icon.svg';
 import graphql from '../images/icons/skillIcons/web-dev/GraphQL-icon.svg';
 import react from '../images/icons/skillIcons/web-dev/react-icon.svg';
-import postman from '../images/icons/skillIcons/web-dev/postman-icon.svg';
 import sass from '../images/icons/skillIcons/web-dev/sass-icon.svg';
-import vscode from '../images/icons/skillIcons/web-dev/visual-studio-code-icon.svg';
-import nodejs from '../images/icons/skillIcons/web-dev/nodejs-icon.svg';
 import netlify from '../images/icons/skillIcons/web-dev/netlify-icon.svg';
-import Squarespace from '../images/icons/skillIcons/technicalSkills/squarespace.svg';
-import Wordpress from '../images/icons/skillIcons/technicalSkills/wordpress.svg';
 
 const WebDevelopment = () => {
 
@@ -39,7 +34,7 @@ const WebDevelopment = () => {
                                 <>
                                 <tr>
                                     <td style={{padding: '0', margin: '0'}}>
-                                        <img src={skill[0]} style={{height: '30px'}}/>
+                                        <img src={skill[0]} alt="logo" style={{height: '30px'}}/>
                                     </td>                       
                                     <td>
                                         <h3 className="is-black-text" style={{padding: '0', margin: '0'}}>{skill[1]}</h3>
