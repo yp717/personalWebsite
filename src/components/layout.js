@@ -13,6 +13,7 @@ import PropTypes from "prop-types";
 import '../styles/global.scss';
 
 // import NavBar from "../components/navigation/NavBar";
+import Sidebar from "../components/navigation/Sidebar";
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -28,7 +29,12 @@ const Layout = ({ children }) => {
   return (
     <>
       {/* <NavBar/> */}
-      <main>{children}</main>
+      <div id="outer-container">
+        <Sidebar/>
+        <main id="page-wrap">
+          {children}
+        </main>
+      </div>
     </>
   )
 }
