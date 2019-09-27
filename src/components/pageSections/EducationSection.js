@@ -4,8 +4,12 @@ import Timeline from '../timeline/timeline';
 const EducationSection = () => {
     return (
         <>
-        <h1 className="is-white-text section-heading">Education</h1>
-        <Timeline/>       
+            <div className="container">
+                <h1 className="is-white-text section-heading">Education</h1>
+                <div className="container__row section-heading">                
+                    <Timeline/>
+                </div>
+            </div>
         </>
     );
 }

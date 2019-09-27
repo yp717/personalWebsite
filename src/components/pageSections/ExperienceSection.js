@@ -6,8 +6,6 @@ const ExperienceSection = () => {
         <>
         <div className="container" style={{marginBottom: '5%'}}>
             <h1 className="is-white-text section-heading">Experience</h1>
-            
-            
             <div className="container__row">
                 {/* experience: American Express*/}
                 <ExperienceCard 
