@@ -27,6 +27,7 @@ const IndexPage = () => (
           {/* Landing Hone Screen section */}
           <div className="is-deep-sky-blue-bg">
             <PageSection>
+              {/* maybe put an about section here instead */}
               <div className="text-align-center">
                 <img src={CursiveLogo} alt="cursive logo" className="home-screen"/>
               </div>
@@ -34,42 +35,42 @@ const IndexPage = () => (
           </div>
 
           {/* Education Section */}
-          <div className="is-regal-blue-bg">
+          <div id="education-section" className="is-regal-blue-bg">
             <PageSection>
               <EducationSection/>
             </PageSection>          
           </div>
 
           {/* Experience Section */}
-          <div className="is-green-bg">
+          <div id="experience-section" className="is-green-bg">
             <PageSection>
               <ExperienceSection/>
             </PageSection>           
           </div>
 
           {/* Skills Section */}
-          <div className="is-supernova-yellow-bg">
+          <div id="skills-section" className="is-supernova-yellow-bg">
             <PageSection>
               <SkillsSection/>
             </PageSection>          
           </div>
 
           {/* Achievements Section */}
-          <div className="is-java-green-bg">
+          <div id="achievements-section" className="is-java-green-bg">
             <PageSection>
               <AchievementsSection/>
             </PageSection>          
           </div>
           
           {/* Volunteering Section */}
-          <div className="is-pumpkin-orange-bg">
+          <div id="volunteering-section" className="is-pumpkin-orange-bg">
             <PageSection>
               <VolunteeringSection/>
             </PageSection>          
           </div>
 
           {/* Contact Section */}
-          <div className="is-matisse-blue-bg">
+          <div id="contact-section" className="is-matisse-blue-bg">
             <PageSection title="Contact">
               <ContactSection/>
             </PageSection>
