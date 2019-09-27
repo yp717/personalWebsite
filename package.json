@@ -26,6 +26,7 @@
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
     "react-lottie": "^1.2.3",
+    "react-pose": "^4.0.8",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
     "vertical-timeline-component-for-react": "^1.0.6"
