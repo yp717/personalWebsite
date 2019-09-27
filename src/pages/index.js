@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import PageSection from '../components/PageSection';
 import CallToAction from '../components/callToAction';
-import CursiveLogo from '../images/cursive-yannis.svg';
+import AboutSection from '../components/pageSections/AboutSection';
 import AchievementsSection from '../components/pageSections/AchievementsSection';
 import EducationSection from '../components/pageSections/EducationSection';
 import ExperienceSection from '../components/pageSections/ExperienceSection';
@@ -25,12 +25,9 @@ const IndexPage = () => (
 
         <div className="container__col-lg-7 container__col-md-12 container__col-sm-12 page-section-list">
           {/* Landing Hone Screen section */}
-          <div className="is-deep-sky-blue-bg">
+          <div id="about-section"className="is-deep-sky-blue-bg">
             <PageSection>
-              {/* maybe put an about section here instead */}
-              <div className="text-align-center">
-                <img src={CursiveLogo} alt="cursive logo" className="home-screen"/>
-              </div>
+              <AboutSection/>
             </PageSection>  
           </div>
 
