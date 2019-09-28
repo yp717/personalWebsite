@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import PageSection from '../components/PageSection';
 import CallToAction from '../components/callToAction';
+import LandingSection from '../components/pageSections/LandingSection';
 import AboutSection from '../components/pageSections/AboutSection';
 import AchievementsSection from '../components/pageSections/AchievementsSection';
 import EducationSection from '../components/pageSections/EducationSection';
@@ -24,7 +25,14 @@ const IndexPage = () => (
         </div>
 
         <div className="container__col-lg-7 container__col-md-12 container__col-sm-12 page-section-list">
-          {/* Landing Hone Screen section */}
+          {/* Landing Home Screen section */}
+          <div id="landing-section"className="is-matisse-blue-bg">
+            <PageSection>
+              <LandingSection/>
+            </PageSection>  
+          </div>
+
+          {/* About Section */}
           <div id="about-section"className="is-deep-sky-blue-bg">
             <PageSection>
               <AboutSection/>

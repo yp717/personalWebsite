@@ -23,7 +23,8 @@ const TimelineComponent = () => {
         <TimelineItem
             key="002"
             dateText="06/2018 – 08/2018"
-            dateInnerStyle={{ background: '#F64755', color: '#FFFFFF' }}
+            // problem is in the following line
+            dateInnerStyle={{ background: '#F64755', color: '#FFFFFF' }} 
             style={{ color: '#F64755' }}
         >
             <h3 className="is-white-text">Stanford University Summer Exchange</h3>
@@ -38,9 +39,7 @@ const TimelineComponent = () => {
         >
             <h3 className="is-white-text">A-Levels</h3>
             <h4 className="is-white-text">British School of Bahrain</h4>
-            <p className="is-white-text">
-            Mathematics A* <br/> Further Mathematics A* <br/> Physics A <br/> English Literature A
-            </p>
+            <p className="is-white-text">Mathematics A* <br/> Further Mathematics A* <br/> Physics A <br/> English Literature A</p>
         </TimelineItem>
         </Timeline>
         </>
