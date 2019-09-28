@@ -42,7 +42,7 @@ exports.createPages = ({ actions, graphql }) => {
             });
         });
 
-        // create Tags pages
+        // create tags pages
         // pulled directly from https://www.gatsbyjs.org/docs/adding-tags-and-categories-to-blog-posts/#add-tags-to-your-markdown-files
         let tags = [];
         // Iterate through each post, putting all found tags into `tags`
