@@ -61,7 +61,26 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        // option to add more headers. `Link` headers are transformed by the below criteria
+        headers: {},
+        // option to add headers for all pages. `Link` headers are transformed by the below criteria
+        allPageHeaders: [],
+        // boolean to turn off the default security headers
+        mergeSecurityHeaders: true,
+        // boolean to turn off the default gatsby js headers
+        mergeLinkHeaders: true,
+        // boolean to turn off the default caching headers
+        mergeCachingHeaders: true,
+        // optional transform for manipulating headers under each path (e.g.sorting), etc.
+        transformHeaders: (headers, path) => headers, 
+        // boolean to turn off automatic creation of redirect rules for client only paths
+        generateMatchPathRewrites: true,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
