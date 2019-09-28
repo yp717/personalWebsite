@@ -68,9 +68,7 @@ module.exports = {
         // option to add more headers. `Link` headers are transformed by the below criteria
         headers: {},
         // option to add headers for all pages. `Link` headers are transformed by the below criteria
-        allPageHeaders: [
-          "Link: </static/my-logo.png>; rel=preload; as=image",
-        ],
+        allPageHeaders: [],
         // boolean to turn off the default security headers
         mergeSecurityHeaders: true,
         // boolean to turn off the default gatsby js headers
