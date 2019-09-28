@@ -17,7 +17,7 @@ const LandingSection = () => {
                 </div>
                 <div style={{height: "20%"}} className="container__col-lg-4 container__col-md-4 container__col-sm-12 container__col-xs-12 text-align-center">
                     <img src={LegoYannisFullStack}/>
-                    <h2 className="text-align-center is-white-text" style={{paddingBottom: "2%"}}>Full-Stack</h2>
+                    <h2 className="text-align-center is-white-text" style={{paddingBottom: "0%", marginBottom: "0%"}}>Full-Stack</h2>
                 </div>
             </div>
         </>
