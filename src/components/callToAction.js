@@ -6,7 +6,7 @@ const CallToAction = () => {
         <>
           <div className="sidebar-wrapper">
             <div className="text-align-center">
-              <h2 className="is-dark-grey-text" style={{margin: '0', padding: '0'}}>ENGINEER<br/>DESIGNER<br/>DEVELOPER<br/>STUDENT.<br/>
+              <h2 className="is-dark-grey-text" style={{margin: '0', padding: '0'}}>ENGINEER.<br/>DESIGNER.<br/>DEVELOPER.<br/>STUDENT.<br/>
               </h2>
               <h3 className="is-dark-grey-text">
                 Hi, I'm Yannis

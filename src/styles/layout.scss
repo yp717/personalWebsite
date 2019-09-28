@@ -84,7 +84,7 @@ $map-grid-props: (
 }
 
 .page-section-list {
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     overflow-y: scroll;
     height: 100vh;
   } 
