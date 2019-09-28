@@ -6,7 +6,7 @@
  */
 
 import React from "react";
-import { Helmet } from "react-helmet";
+import Helmet from "react-helmet";
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby"
 
