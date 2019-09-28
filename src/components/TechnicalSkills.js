@@ -19,7 +19,7 @@ const SoftwarePackageSkills = () => {
     ]
     return (
         <>
-            <div className="skill-section is-white-bg" style={{paddingLeft: '5%', paddingRight: '5%', paddingBottom: '0px'}}>
+            <div className="skill-section is-white-bg" style={{paddingBottom: '0px'}}>
                 <h2 className="is-black-text">Software and App Skills</h2>
                 <table>
                     <tbody>
