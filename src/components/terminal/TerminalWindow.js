@@ -24,9 +24,9 @@ const TerminalWindow = () => {
                     > I'm currently a third year <strong>Electrical Engineering</strong> student at <strong>Imperial College London</strong> and I'm looking for a 6 month placement as part of my degree.<br/>
                     > <br/>
                     > Outside of work I spend my free time working in <strong>web development</strong>, <strong>teaching</strong>,<strong>running</strong> and <strong>writing music</strong>. If you'd like to know more about my music, check out
-                    > my spotify {<a className="is-green-text" href={spotifyLink} target="_blank"><strong>here</strong></a>}! 🎸<br/>
+                    > my spotify {<a className="is-green-text" href={spotifyLink}><strong>here</strong></a>}! 🎸<br/>
                     > <br/>
-                    > Aside from placements, I am also actively taking on work in tutoring and personal statement advice so reach out if that's something that interests you. <span>😃</span><br/>
+                    > Aside from placements, I am also actively taking on work in tutoring and personal statement advice so reach out if that's something that interests you. <span role="img" aria-label="happy-emoji">😃</span><br/>
                     > <br/>
                 </p>
             </div>

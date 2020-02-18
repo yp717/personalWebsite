@@ -8,15 +8,15 @@ const LandingSection = () => {
         <>
             <div className="container__row" style={{display: "block"}}>                    
                 <div style={{height: "20%"}} className="container__col-lg-4 container__col-md-4 container__col-sm-12 container__col-xs-12 text-align-center">
-                    <img src={LegoYannisFront} />
+                    <img src={LegoYannisFront} alt="lego-icon-front"/>
                     <h2 className="text-align-center is-white-text" style={{paddingBottom: "2%"}}>Front-End</h2>
                 </div>
                 <div style={{height: "20%"}} className="container__col-lg-4 container__col-md-4 container__col-sm-12 container__col-xs-12 text-align-center">
-                    <img src={LegoYannisBack}/>    
+                    <img src={LegoYannisBack} alt="lego-icon-back"/>    
                     <h2 className="text-align-center is-white-text" style={{paddingBottom: "2%"}}>Back-End</h2>
                 </div>
                 <div style={{height: "20%"}} className="container__col-lg-4 container__col-md-4 container__col-sm-12 container__col-xs-12 text-align-center">
-                    <img src={LegoYannisFullStack}/>
+                    <img src={LegoYannisFullStack} alt="stacked-lego-heads"/>
                     <h2 className="text-align-center is-white-text" style={{paddingBottom: "0%", marginBottom: "0%"}}>Full-Stack</h2>
                 </div>
             </div>
