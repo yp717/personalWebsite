@@ -12,7 +12,7 @@ const CallToAction = () => {
                 Hi, I'm Yannis
               </h3>
               <p className="is-dark-grey-text" style={{fontSize: '16px'}}>
-                I'm a third year MEng Electrical Engineering student at Imperial College London looking for a 6 month placement in 2020.
+                I'm a penultimate year MEng Electrical Engineering student at Imperial College London looking for a 6 month placement in 2020.
               </p>
               <div>
                 <SocialLinks />

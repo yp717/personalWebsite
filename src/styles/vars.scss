@@ -13,13 +13,11 @@ $color-palette:
 ("matisse-blue", #385473);
 
 // ("dark-blue", #141821),
-
 // ("purple", #805AD5),
 // ("blue", rgb(0, 148, 216)),
 // ("mustard-yellow", #f4b93d),
 // ("theme-color", #FF5A5F),
 // ("sunset-orange", #F64755),
-
 
 @each $color in $color-palette {
   .is-#{nth($color,1)}-bg{
