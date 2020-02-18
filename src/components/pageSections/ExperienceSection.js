@@ -7,6 +7,14 @@ const ExperienceSection = () => {
         <div className="container" style={{marginBottom: '5%'}}>
             <h1 className="is-white-text section-heading">Experience</h1>
             <div className="container__row">
+                {/* experience: Private Tutoring*/}
+                <ExperienceCard 
+                    title="Private Tutoring"
+                    subheading="Self-organised"
+                    date ="June 2019 - Present"
+                    description="Tutoring A-Level, GCSE and University students in Python, Computer Science concepts and Mathematics."
+                />
+
                 {/* experience: American Express*/}
                 <ExperienceCard 
                     title="Technology Summer Intern"

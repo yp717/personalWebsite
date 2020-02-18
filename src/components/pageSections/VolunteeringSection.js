@@ -6,11 +6,21 @@ const VolunteeringSection = () => {
             <div className="container" style={{marginBottom: '5%'}} >
                 <h1 className="is-white-text section-heading">Volunteering</h1>
                 <div className="container__row">
+                    {/* Academic Representative */}
+                    <div className="container__col-sm-12 is-white-bg experience-card">
+                        <h2 className="is-dark-grey-text card-heading">Third Year Academic Representative</h2>
+                        <h3 className="is-dark-grey-text card-heading">Imperial College London</h3>
+                        <h4 className="is-dark-grey-text card-date">June 2019 - Aug 2020</h4>
+                        <p className="is-dark-grey-text card-body">
+                        Collaborated with the deparment on improving the academic aspects of the student experience in the department.
+                        </p>
+                    </div>
+
                     {/* Departmental Representative */}
                     <div className="container__col-sm-12 is-white-bg experience-card">
                         <h2 className="is-dark-grey-text card-heading">Departmental Representative</h2>
                         <h3 className="is-dark-grey-text card-heading">Imperial College London</h3>
-                        <h4 className="is-dark-grey-text card-date">June 2019 - Aug 2019</h4>
+                        <h4 className="is-dark-grey-text card-date">June 2018 - Aug 2019</h4>
                         <p className="is-dark-grey-text card-body">
                         Identified issues, led initiatives and raised awareness on areas affecting student academics, health, financial concerns, rela- tionships, equality, diversity and personal safety at Imperial.
                         </p>
@@ -22,7 +32,7 @@ const VolunteeringSection = () => {
                         <h3 className="is-dark-grey-text card-heading">Alzheimer’s Society</h3>
                         <h4 className="is-dark-grey-text card-date">Date still missing here</h4>
                         <p className="is-dark-grey-text card-body">
-                        Raised over £300 by running a half marathon for the Alzheimer’s society
+                        Raised over £300 by running a half marathon for the Alzheimer’s society. I plan on running again this year too!
                         </p>
                     </div>
 

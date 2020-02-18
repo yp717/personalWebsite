@@ -1,6 +1,5 @@
 import React from 'react';
 import { navigationPaths } from "../../URLs";
-import Logo from "../Logo";
 
 export default () => {
     return (
@@ -8,7 +7,7 @@ export default () => {
     
         <nav className="heightOffset navbar">
             <div className="innerContainer" >
-                <Logo/>
+            <h3>Yannis Panagis</h3>
                 {navigationPaths.map(({ path, name }) => (
                     <a className="navLinks" href={path}>
                         <div style={{display:'flex', alignItems:"center"}}>
