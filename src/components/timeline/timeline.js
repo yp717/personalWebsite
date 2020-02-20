@@ -23,7 +23,6 @@ const TimelineComponent = () => {
         <TimelineItem
             key="002"
             dateText="06/2018 – 08/2018"
-            // problem is in the following line
             dateInnerStyle={{ background: '#F64755', color: '#FFFFFF' }} 
             style={{ color: '#F64755' }}
         >

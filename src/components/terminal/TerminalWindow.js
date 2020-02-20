@@ -6,14 +6,13 @@ const TerminalWindow = () => {
     return (
         <>
         <div className="terminal-window">
-            {/* three buttons here */}
             <div className="container__row">
                 <div className="circle is-red-orange-bg" style={{margin: '0.5rem'}} />
                 <div className="circle is-supernova-yellow-bg" style={{margin: '0.5rem'}} />
                 <div className="circle is-green-bg" style={{margin: '0.5rem'}} />
             </div>
             <div className="container__row">
-                {/* reads this from markdown file */}
+                {/* TODO: read this from markdown file */}
                 <p className="is-white-text" style={{marginLeft: '2rem', marginRight: '2rem'}}> 
                     > <strong>Some Personal Information</strong> <br/>
                     > Name = Yannis Panagis <br/>

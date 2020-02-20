@@ -1,4 +1,3 @@
-// https://www.gatsbyjs.org/docs/adding-tags-and-categories-to-blog-posts/#add-tags-to-your-markdown-files
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';

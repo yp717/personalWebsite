@@ -1,6 +1,5 @@
 import React from 'react';
 
-// image imports 
 import html5 from '../images/icons/skillIcons/web-dev/html-5-icon.svg';
 import css3 from '../images/icons/skillIcons/web-dev/css-3-icon.svg';
 import javascript from '../images/icons/skillIcons/web-dev/javascript-icon.svg';

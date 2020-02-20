@@ -1,4 +1,3 @@
-// You can delete this file if you're not using it
 const _ = require('lodash');
 const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
@@ -33,17 +32,16 @@ exports.createPages = ({ actions, graphql }) => {
         }
 
         const results = result.data.allMarkdownRemark.edges;
-        //Creates blog posts
+
         results.forEach(({ node }) => {
             createPage({
                 path: node.fields.slug,
                 component: blogTemplate,
-                context: { slug: node.fields.slug }, // additional data can be passed via context
+                context: { slug: node.fields.slug },
             });
         });
 
         // create tags pages
-        // pulled directly from https://www.gatsbyjs.org/docs/adding-tags-and-categories-to-blog-posts/#add-tags-to-your-markdown-files
         let tags = [];
         // Iterate through each post, putting all found tags into `tags`
         _.each(results, edge => {

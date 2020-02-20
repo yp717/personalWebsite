@@ -1,8 +1,6 @@
 import React from 'react';
 
 import WebDevelopment from '../WebDevelopment';
-// import DesignSkills from '../DesignSkills';
-// import LanguageSkills from '../LanguageSkills';
 import TechnicalSkills from '../TechnicalSkills';
 
 const SkillsSection = () => {
@@ -12,8 +10,6 @@ const SkillsSection = () => {
             <div className="container" style={{paddingBottom: '20px'}}>
                     <TechnicalSkills />
                     <WebDevelopment />
-                {/* <DesignSkills />
-                <LanguageSkills /> */}
             </div>
         </>
     );
